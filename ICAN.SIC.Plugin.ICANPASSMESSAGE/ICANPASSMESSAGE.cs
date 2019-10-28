@@ -30,8 +30,8 @@ namespace ICAN.SIC.Plugin.ICANPASSMESSAGE
         private void PrintHelp()
         {
             Console.WriteLine("[ICANPASSMESSAGE] Post a Machine message to add client as follows: AddMachineMessageSubscriber,<ip>,<port>");
-            Console.WriteLine("[ICANPASSMESSAGE] <" + MessageType.BotResult + "> <" + MessageType.MachineMessage + ">");
-            Console.WriteLine("[ICANPASSMESSAGE] <" + MessageType.UserFriendlyMachineMessage + "> <" + MessageType.UserResponse + ">");
+            Console.WriteLine("[ICANPASSMESSAGE] <" + MessageType.BotResult.Value + "> <" + MessageType.MachineMessage.Value + ">");
+            Console.WriteLine("[ICANPASSMESSAGE] <" + MessageType.UserFriendlyMachineMessage.Value + "> <" + MessageType.UserResponse.Value + ">");
         }
 
         private void ProcessUserFriendlyMachineMessage(IUserFriendlyMachineMessage msg)
